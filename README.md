@@ -18,6 +18,8 @@ Welcome to **Pixel Pomodoro** – a cute, pixel-art-style **Pomodoro Timer** des
 
 ## 🚀 Live Demo
 🎯 **Try it out here**: [Pixel Pomodoro Live](https://unrivaled-manatee-5ab30c.netlify.app/)
+📢 **Note:** This app is optimized for laptops and desktop screens. Opening the live demo on mobile devices is not recommended.
+
 
 ## 📸 Screenshots
 ![Pixel Pomodoro Preview](preview.jpg)
