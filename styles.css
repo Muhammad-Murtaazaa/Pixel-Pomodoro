@@ -42,6 +42,13 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 0px #000;
 }
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: #1e1e1e 5px 5px 2px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #280bca;
+}
 .buttons {
     margin-top: 20px;
 }
@@ -70,5 +77,11 @@ button:hover {
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
+    font-style: normal;
+  }
+  .pixelify-sans-bold {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
     font-style: normal;
   }

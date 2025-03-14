@@ -15,17 +15,17 @@
         Your browser does not support the video tag.
     </video>
     <div class="container">
-        <h1 class="pixelify-sans-regular">Pixel Pomodoro </h1>
-        <div class="timer" id="timer">25:00</div>
-        <div class="status" id="status">Click Start to begin the timer</div>
-        <div class="buttons">
+        <h1 class="pixelify-sans-bold">Pixel Pomodoro </h1>
+        <div class="timer pixelify-sans-regular" id="timer">25:00</div>
+        <div class="status pixelify-sans-regular" id="status">Click Start to begin the timer</div>
+        <div class="buttons pixelify-sans-regular">
             <button onclick="startTimer()">Start</button>
             <button onclick="pauseTimer()">Pause</button>
             <button onclick="resetTimer()">Reset</button>
             <button onclick="openTimePopup()">Set Time</button>
         </div>
     </div>
-    <div class="time-popup" id="time-popup">
+    <div class="time-popup"  id="time-popup">
         <div class="time-popup-content">
             <h2>Set Time</h2>
             <input type="number" id="minutes" placeholder="Minutes">
