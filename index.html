@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pixel-Pomodoro</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <video class="video-bg" autoplay loop muted>
-        <source src="background.mp4" type="video/mp4">
+      <source src="background.mp4" type="video/mp4" />
     </video>
     <audio id="bg-music" autoplay loop>
-        <source src="music.mp3" type="audio/mpeg">
+      <source src="music.mp3" type="audio/mpeg" />
     </audio>
     <div class="container">
-        <h1 class="pixelify-sans-bold">Pixel Pomodoro </h1>
-        <div class="timer pixelify-sans-regular" id="timer">25:00</div>
-        <div class="status pixelify-sans-regular" id="status">Click Start to begin the timer</div>
-        <div class="buttons pixelify-sans-regular">
-            <button onclick="startTimer()">Start</button>
-            <button onclick="pauseTimer()">Pause</button>
-            <button onclick="resetTimer()">Reset</button>
-            <button onclick="openTimePopup()">Set Time</button>
-        </div>
+      <h1 class="pixelify-sans-bold">Pixel Pomodoro</h1>
+      <div class="timer pixelify-sans-regular" id="timer">25:00</div>
+      <div class="status pixelify-sans-regular" id="status">
+        Click Start to begin the timer
+      </div>
+      <div class="buttons pixelify-sans-regular">
+        <button onclick="startTimer()">Start</button>
+        <button onclick="pauseTimer()">Pause</button>
+        <button onclick="resetTimer()">Reset</button>
+        <button onclick="openTimePopup()">Set Time</button>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

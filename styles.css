@@ -10,6 +10,7 @@ body {
     height: 100%;
     overflow: hidden;
 }
+
 .video-bg {
     position: fixed;
     top: 0;
@@ -19,6 +20,7 @@ body {
     object-fit: cover;
     z-index: -1;
 }
+
 .content {
     position: relative;
     z-index: 1;
@@ -27,6 +29,7 @@ body {
     text-align: center;
     margin-top: 20%;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -34,6 +37,7 @@ body {
     justify-content: center;
     height: 100vh;
 }
+
 .timer {
     font-size: 5rem;
     text-shadow: #1e1e1e 5px 5px 2px;
@@ -44,16 +48,19 @@ body {
     border-radius: 50px;
     box-shadow: 5px 5px 0px #000;
 }
-h1{
+
+h1 {
     font-size: 6rem;
     margin-bottom: 20px;
     text-shadow: #1e1e1e 5px 5px 2px;
     text-transform: uppercase;
     -webkit-text-stroke: 1px #280bca;
 }
+
 .buttons {
     margin-top: 20px;
 }
+
 button {
     font-family: inherit;
     font-size: 2rem;
@@ -68,25 +75,29 @@ button {
     transition: all 0.4s;
     text-shadow: #1e1e1e 2px 2px 2px;
 }
+
 button:hover {
     transform: translate(-2px, -2px);
     box-shadow: 5px 5px 0px #000;
 }
+
 .status {
     margin-top: 10px;
     font-size: 2rem;
     color: #ffffff;
     text-shadow: #1e1e1e 2px 2px 2px;
 }
+
 .pixelify-sans-regular {
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
-  .pixelify-sans-bold {
+}
+
+.pixelify-sans-bold {
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
+}
