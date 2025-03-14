@@ -1,8 +1,9 @@
 let time = 1500, interval;
         let isRunning = false;
-        
+        const audio = document.getElementById('bg-music');        
         function startTimer() {
             if (!interval) {
+                audio.play();
                 isRunning = true;
                 document.getElementById('status').textContent = "Timer is running...";
                 interval = setInterval(() => {
@@ -20,6 +21,7 @@ let time = 1500, interval;
         }
         
         function pauseTimer() {
+            audio.pause();
             clearInterval(interval);
             interval = null;
             isRunning = false;
@@ -27,6 +29,8 @@ let time = 1500, interval;
         }
         
         function resetTimer() {
+            audio.pause();
+            audio.currentTime = 0;
             clearInterval(interval);
             interval = null;
             isRunning = false;
