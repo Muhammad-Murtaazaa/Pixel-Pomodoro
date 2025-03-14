@@ -101,3 +101,24 @@ button:hover {
     font-weight: 700;
     font-style: normal;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .timer {
+        font-size: 3rem;
+        padding: 15px;
+    }
+    .buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+    button {
+        font-size: 1.5rem;
+        padding: 8px 15px;
+    }
+    .status {
+        font-size: 1.5rem;
+    }
+}
