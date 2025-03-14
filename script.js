@@ -53,3 +53,6 @@ let time = 1500, interval;
             document.getElementById('timer').textContent = 
                 `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
         }
+        window.addEventListener('click', () => {
+            document.getElementById('bg-music').play();
+        }, { once: true });
